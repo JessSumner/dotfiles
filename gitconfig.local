@@ -1,2 +1,10 @@
 [core]
   editor = subl -n -w
+
+[user]
+  name = Jessica Sumner
+  email = jess.r.sumner@gmail.com
+
+[github]
+  user = JessSumner
+
