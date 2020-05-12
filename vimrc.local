@@ -1,0 +1,1 @@
+let test#ruby#rspec#executable = 'COMPOSE_INTERACTIVE_NO_CLI=1 ~/Workspace/eztilt/run pos-web rspec'

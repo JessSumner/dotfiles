@@ -8,3 +8,15 @@ zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
+
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+#direnv
+eval "$(direnv hook zsh)"
+
+#tilt
+# alias tlt="/usr/local/Cellar/tilt/0.12.9/bin/tilt"
+alias tlt="~/.asdf/shims/tilt"
+alias run="~/Workspace/eztilt/run"
+alias flush="run ez-rails-redis redis-cli FLUSHALL"
+

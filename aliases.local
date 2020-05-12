@@ -1,0 +1,6 @@
+alias be="bundle exec"
+
+# Kubernetes
+# alias kube_proxy="kubectl config use-context --kubeconfig=~/kube-config && kubectl proxy"
+alias kube_me_stage="kubectl config use-context staging && kubectl proxy"
+alias kube_me_prod="kubectl config use-context production && kubectl proxy"
